@@ -24,7 +24,7 @@ public class VentanaResumen extends JFrame{
 			String tipo, String nombre, boolean principal, boolean secundario) {
 		super("Pedido al distribuidor "+distribuidor);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(300, 250);
+        setSize(370, 250);
         setLocationRelativeTo(null); 
 
         JPanel panel = new JPanel();
